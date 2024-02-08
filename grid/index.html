@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .grr {
+            display: grid;
+            /* grid-template-columns: 100px 100px;
+            grid-template-rows: 100px 100px 100px; Сколько высоты должна быть колонка или ряд */
+
+            /* grid-template-columns: minmax(10px, 50px) 100px; */
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 50px);
+            /* сетка 3х2 */
+            grid-auto-rows: 100px; 
+            /* лишний ряд занимает отдельное количество пикселей от самой сетки  */
+            grid-auto-columns: auto;
+
+            justify-items: center;
+            align-items: center;
+        }
+
+        /* .two {
+            justify-self: end;
+        }
+
+        .one {
+            align-self: start;
+        } */
+
+
+        /* .cite {
+            display: grid;
+            grid-template-areas: 'header header header header' 
+                                 'sidebar conte conte conte' 
+                                 'el el el2 el2' 
+                                 'footer footer footer footer';
+        }
+
+        .header {
+            grid-area: header;
+            background: red;
+        }
+
+        .content {
+            grid-area: conte;
+            background: green;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background: orange;
+        }
+
+        .footer {
+            grid-area: footer;
+            background: red;
+        }
+
+        .el {
+            background: blue;
+            grid-area: el;
+        }
+
+        .el2 {
+            background: pink;
+            grid-area: el2;
+        } */
+
+        .g2 {
+            display: grid;
+            grid-template: repeat(3, 100px) / repeat(3, 50px);
+        }
+
+        .tw {
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        .fr {
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+    </style>
+
+
+    <!-- <div class="grr">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+    </div> -->
+
+    <!-- <div class="cite">
+        <div class="header">header</div>
+        <div class="content">content</div>
+        <div class="sidebar">sidebar</div>
+        <div class="el">Element1</div>
+        <div class="el2">Element2</div>
+        <div class="footer">footer</div>
+    </div> -->
+
+    <div class="g2">
+        <div class="fr">1</div>
+        <div class="tw">2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+</body>
+</html>

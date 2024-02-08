@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Grid Block</title>
+</head>
+<body>
+
+    <style>
+        /* Сетка */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* Левый блок */
+.left-block {
+  background-color: red;
+  text-align: center;
+}
+
+/* Текст в левом блоке */
+.left-block > span {
+  font-size: 16px;
+}
+
+/* Текст a-left */
+.left-block > .a-left {
+  padding-top: 10px;
+  background: pink;
+}
+
+/* Текст b-left */
+.left-block > .b-left {
+  padding-top: 20px;
+  background: yellow;
+
+}
+
+    </style>
+
+  <div class="grid">
+    <div class="left-block">
+        
+      <div class="a-left">Текст a-left</div>
+      <div class="b-left">Текст b-left</div>
+    </div>
+    <div class="center-block"></div>
+    <div class="right-block"></div>
+  </div>
+</body>
+</html>
