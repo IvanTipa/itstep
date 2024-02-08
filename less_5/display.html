@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Display and Visibility Example</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: #f0f0f0;
+        border: 1px solid #999;
+        margin: 10px;
+        display: inline-block;
+    }
+    .hidden {
+        visibility: hidden; 
+    }
+    .none {
+        display: none; 
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h2>Display and Visibility Example</h2>
+        <div class="box">Box 1</div>
+        <div class="box" style="display: none;">Box 2 (display: none)</div>
+        <div class="box hidden">Box 3 (visibility: hidden)</div>
+        <div class="box none">Box 4 (display: none)</div>
+    </div>
+</body>
+</html>

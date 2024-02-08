@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Favorite Musicians</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .musician-list {
+        list-style: none;
+        padding: 0;
+    }
+    .musician-list li {
+        border: 1px solid #000;
+        padding: 10px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .musician-name {
+        position: absolute;
+        top: -25px;
+        left: 0;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #000;
+    }
+    nav {
+        background-color: #333;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+    }
+    .content {
+        margin-top: 60px; 
+        padding: 20px;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <a target="_blank" href="./overflow.html">Overflow</a>
+        <a target="_blank" href="./display.html">Display & Visibility</a>
+        <a target="_blank" href="./float.html">Float</a>
+    </nav>
+    <h1>My Favorite Musicians</h1>
+    <ul class="musician-list">
+        <li>
+            <span class="musician-name">Freddie Mercury</span>
+            <p>
+                Freddie Mercury was a British singer, songwriter, and lead vocalist of the rock band Queen. He is regarded as one of the greatest singers in the history of popular music.
+            </p>
+        </li>
+        <li>
+            <span class="musician-name">Jimi Hendrix</span>
+            <p>
+                Jimi Hendrix was an American rock guitarist, singer, and songwriter. He is widely regarded as one of the most influential electric guitarists in the history of popular music.
+            </p>
+        </li>
+        <li>
+            <span class="musician-name">Aretha Franklin</span>
+            <p>
+                Aretha Franklin was an American singer, songwriter, and pianist. She is considered one of the greatest singers of all time and was dubbed the "Queen of Soul."
+            </p>
+        </li>
+        <li>
+            <span class="musician-name">Bob Marley</span>
+            <p>
+                Bob Marley was a Jamaican singer, songwriter, and musician. He is credited with popularizing reggae music worldwide and is considered one of the pioneers of reggae.
+            </p>
+        </li>
+    </ul>
+</body>
+</html>

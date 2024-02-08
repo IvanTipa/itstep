@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Overflow Example</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        border: 1px solid #ccc;
+        padding: 20px;
+    }
+    .box {
+        width: 200px;
+        height: 200px;
+        background-color: #f0f0f0;
+        border: 1px solid #999;
+        float: left;
+        margin-right: 20px;
+    }
+    .overflow-container {
+        overflow: scroll;
+        height: 220px; 
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h2>Overflow Example</h2>
+        <div class="overflow-container">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+            <div class="box">Box 4</div>
+            <div class="box">Box 5</div>
+            <div class="box">Box 6</div>
+            <div class="box">Box 7</div>
+            <div class="box">Box 8</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non diam justo. Praesent bibendum odio nec neque vestibulum, vel ultrices orci iaculis. In gravida velit nec nulla condimentum, nec consequat neque porttitor. Nam pellentesque nisi sed lectus pellentesque vulputate.</p>
+    </div>
+</body>
+</html>
