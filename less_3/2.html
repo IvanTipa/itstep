@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .body {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video {
+        width: 150px;
+        padding-right: 20px;
+    }
+
+    .img { 
+        width: 300px;
+        padding-right: 20px;
+    }
+
+    .video-box h2 {
+        color: blue;
+    }
+
+    .audio h2 {
+        color: red;
+    }
+
+    a {
+        text-decoration: none;
+        color: red;
+        font-size: 48px;
+    }
+    a:hover {
+        color: black; 
+    }
+
+</style>
+<body>
+    <div class="body">
+        <div class="video-box">
+            <h2>САЛЮЮТ</h2>
+            <video class="video" src="./assets/video.mp4"  controls autoplay></video>
+        </div>
+        <div claкss="image-box">
+            <h2>Пейзаж</h2>
+            <img class="img" src="./assets/image.jpeg" alt="">
+        </div>
+    </div>
+    
+    
+    <div class="audio">
+        <h2>ТОП-1 пісня, не пропускати</h2>
+        <audio src="./assets/audio.mp3" autoplay controls></audio>
+        <audio src="./assets/audio1.mp3" loop  autoplay></audio>
+    </div>
+
+    <a href="./3.html#link-to-text">ПЕРЕЙТИ НА ТЕКСТ</a>
+</body>
+</html>
