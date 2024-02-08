@@ -1,0 +1,191 @@
+/* Global style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 33px;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background-color: #0D1319;
+  padding: 0 120px;
+}
+
+section {
+  padding: 200px 0;
+}
+
+.section_navigation {
+  width: 40%;
+  display: flex;
+}
+
+.navigation_sym {
+  width: 50%;
+  color: #EEEDED;
+  font-size: 83px;
+}
+
+.navigation_route {
+  color: #E56000;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 50px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #E56000;
+  transition: .5s;
+}
+
+/* Section 1 */
+
+.research {
+  display: flex;
+}
+
+.research_title {
+  width: 40%;
+}
+
+.research_title h2 {
+  color: #E56000;
+  font-weight: bold;
+  font-size: 350px;
+  line-height: 280px;
+}
+
+.research_search {
+  width: 60%;
+}
+
+.research_search h4 {
+  margin-bottom: 50px;
+}
+
+.research_nav {
+  display: flex;
+  border-bottom: 2px solid #b8b8b8;
+  padding: 20px 0;
+}
+
+.research_search .nav_item {
+  width: 40%;
+  color: #B8B8B8;
+}
+
+.nav_href a:hover {
+  color: #E56000;
+  transition: .5s;
+}
+
+/* section 2 */
+
+.about-us {
+  display: flex;
+}
+
+.about-us_text {
+  width: 60%;
+  color: #fff;
+}
+
+
+/* section 3 */
+
+.overview-wrapper {
+  width: 100%;
+  display: flex;
+  margin: 100px 0;
+}
+
+.wrapper_title {
+  width: 40%;
+  font-size: 100px;
+  text-transform: uppercase;
+  line-height: 152px;
+  color: #0D1319;
+  text-shadow:
+    -1px -1px #E56000,
+    1px -1px #E56000,
+    -1px 1px #E56000,
+    1px 1px #E56000;
+}
+
+
+.wrapper_text {
+  width: 60%;
+}
+
+/* section 4 */
+
+.swot_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.swot_container:first-child {
+  margin-top: 30px;
+}
+
+.swot-left h2,
+.swot-right h2 {
+  color: #E56000;
+  text-transform: uppercase;
+  font-size: 77px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.swot-left {
+  width: 50%;
+}
+
+.swot-left div {
+  line-height: 40px;
+  margin: 10px 0;
+}
+
+.swot-right {
+  width: 40%;
+}
