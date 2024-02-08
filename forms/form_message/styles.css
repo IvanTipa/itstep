@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 120px;
+    background: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+    padding: 40px 50px;
+    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* .label-container {
+    min-width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 35px;
+}
+
+
+label {
+    color: #fff;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+} */
+
+.label-container {
+    min-width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Змінено на flex-end */
+    padding-right: 35px;
+}
+
+.label-container label {
+    color: #fff;
+    margin-bottom: 25px; /* Додано відступ між label */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.input-container input,
+.input-container select{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+}
+
+.names {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.inut-names:last-child {
+    margin-left: 20px;
+}
+
+.phone {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.phone-number:not(:first-child) {
+    margin-left: 20px;
+
+}
+
+.email {
+    width: 100%;
+}
+
+.theme {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+    height: 30px;
+    border: none    ;
+}
+
+.message {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.email, .phone, .theme, .message {
+    padding-top: 15px;
+}
+
+
+#mail, #phone, #theme, #message {
+    text-align: center;
+} 
+
+hr {
+    width: 100%;
+}
+
+.contact-form p {
+    color: #fff;
+    margin-top: 15px;
+}
+
+.title-form {
+    color: #fff;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    width: 75%;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 15px;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+.form-container:last-child {
+    margin-top: 0;
+}
+
+.input-container:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

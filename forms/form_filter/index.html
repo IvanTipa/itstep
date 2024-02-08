@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <h2>Flights - Search List</h2>
+            </div>
+            <div class="menu">
+                <h2>Home / Flights Search List</h2>
+            </div>
+        </header>
+
+        <form action="" class="search-form">
+            <div class="radios">
+                <input type="radio"><label for="title-radio" class="title-radio">One way</label>
+                <input type="radio" class="input-radio"><label for="title-radio" class="title-radio">Round Trip</label>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="From" class="from from-first">
+                <input type="text" placeholder="To" class="from from-last">
+                <input type="datetime" placeholder="Depart Date" class="date date-first">
+                <input type="datetime" placeholder="Return Date" class="date date-last">
+
+                <select name="Class" id="class">
+                    <option value="Economy Class">Economy Class</option>
+                    <option value="Economy Class">Economy Class</option>
+                    <option value="Economy Class">Economy Class</option>
+                </select>
+
+                <input type="submit" value="Search" class="btn">
+            </div>
+        </form>
+
+        <div class="filters">
+            <form action="" class="filter">
+                <h2 class="filter-title">Filter</h2>
+
+                <div class="stops">
+                    <h3>No. of Stops</h3>
+
+
+                    <div class="item-stop">
+                        <input type="checkbox"><label for="stops">Non Stop</label>
+                    </div>
+                    <div class="item-stop">
+                        <input type="checkbox"><label for="stops">1 Stop</label>
+                    </div>
+                    <div class="item-stop">
+                        <input type="checkbox"><label for="stops">2+ Stop</label>
+                    </div>
+
+                </div>
+
+                <div class="prices">
+                    <h3>Price</h3>
+
+                    <div class="prices-block">
+                        <div class="price-left">
+                            <p>Min:</p>
+                            <input type="text" placeholder="0" class="min-price"><label for="price" >$ - </label>
+                        </div>
+                        <div class="price-right">
+                            <p>Max: </p>
+                            <input type="text" placeholder="1000" class="max-price"><label for="price">$</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="airlines">
+                    <h3>Airlines</h3>
+                    <div>
+                        <input type="checkbox"><label for="airline">Asiana Airlines</label>
+                    </div>
+                    <div><input type="checkbox"><label for="airline">American Airlines</label></div>
+                    <div>
+                        <input type="checkbox"><label for="airline">Air Canada</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"><label for="airline">Air India</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"><label for="airline">Jet Airways</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"><label for="airline">Spicejet</label>
+                    </div>
+                    <div><input type="checkbox"><label for="airline">IndiGo</label></div>
+                    <div><input type="checkbox"><label for="airline">Multiple Airlines</label></div>
+                </div>
+            </form>
+
+            <div class="flights-list">
+                <header class="header-list">
+                    <h2>
+                        Dehli to Sidney
+                    </h2>
+
+                    <table>
+                        <thead>
+                          <tr>
+                            <th>Airlines
+                            </th>
+                            <th>Departure
+                            </th>
+                            <th>Duration</th>
+                            <th>Arrival</th>
+                            <th>Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                                IndiGo
+                            </td>
+                            <td >23:30
+                            </td>
+                            <td>18h 55m
+        
+                            </td>
+                            <td>18:15
+                            </td>
+                            <td>$980</td>
+                            <td>
+                                <a href="#">Book</a>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                                6E-2489
+                            </td>
+                            <td >Dehli
+                            </td>
+                            <td>Non Stop
+        
+                            </td>
+                            <td>Sydney
+                            </td>
+                            <td></td>
+                            <td>
+                                <a href="#">Flight Details</a>
+                            </td>
+                          </tr>
+                          
+                          
+                        </tbody>
+                      </table>
+                </header>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
