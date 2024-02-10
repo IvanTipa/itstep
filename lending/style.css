@@ -34,7 +34,7 @@ section {
 }
 
 .navigation_sym {
-  width: 50%;
+  width: 48%;
   color: #EEEDED;
   font-size: 83px;
 }
@@ -47,6 +47,10 @@ section {
 
 p {
   margin-bottom: 30px;
+}
+
+.mt-8 {
+  margin-top: 80px;
 }
 
 /* Header */
@@ -188,4 +192,156 @@ header a:hover {
 
 .swot-right {
   width: 40%;
+}
+
+.swot-right div {
+  line-height: 40px;
+  margin: 10px 0;
+}
+
+/* section 5 */
+
+.person-container {
+
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  flex-direction: column;
+
+}
+
+
+.user-person {
+  width: 100%;
+  display: flex;
+  border: 1px solid #E56000;
+  padding-top: 53px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 80px;
+  font-size: 33px;
+}
+
+.user-person:nth-child(1) {
+  position: relative;
+  left: -119px;
+}
+
+.user-person:nth-child(2) {
+  position: relative;
+  right: -119px;
+}
+
+.user-person:not(:first-child) {
+  margin-top: 100px;
+}
+
+.user-person img {
+  max-width: 389px;
+  margin-right: 32px;
+}
+
+.person-title div:not(:first-child) {
+  margin-top: 26px;
+}
+
+/* section 6 */
+
+.market-research {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.market-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 68px;
+}
+
+.market-item {
+  width: 33.3%;
+}
+
+.vlasnahata-logo {
+  width: 100%;
+  height: auto;
+}
+
+.kck-logo {
+  width: 100%;
+  height: auto;
+}
+
+.dniprobud-logo {
+  width: 350px;
+  background: #E56000;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.market-item:not(:last-child) {
+  margin-right: 89px;
+}
+
+
+.item-advantages {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.advantages-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.market-item .item-advantages:first-child {
+  margin-top: 80px;
+}
+
+.item-advantages:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.advantages-title {
+  font-size: 25px;
+}
+
+.icon-plus {
+  width: 51px;
+  height: 51px;
+  position: relative;
+  left: 0;
+  margin-right: 15px;
+}
+
+.icon-plus:before,
+.icon-plus:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 3px;
+  background-color: #E56000;
+}
+
+.icon-plus:before {
+  transform: translate(-50%, -50%);
+}
+
+.icon-plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.icon-minus {
+  display: inline-block;
+  width: 51px;
+  height: 3px;
+  background: #E56000;
+  margin-right: 15px;
 }
