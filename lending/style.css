@@ -345,3 +345,74 @@ header a:hover {
   background: #E56000;
   margin-right: 15px;
 }
+
+/* section 6 sitemap */
+
+.sitemap-sheme {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* .block {
+  background-color: #E56000;
+  padding: 30px 60px;
+  color: #fff;
+  margin-top: 277px;
+  position: relative;
+}
+
+.arrow {
+  border-top: 3px solid #E56000;
+  border-right: 3px solid #E56000;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 20px;
+  /* margin-top: 115px;
+  margin-left: px; */
+
+/* .arrow:nth-child(odd) {
+  top: 50%;
+  margin-top: -15px;
+}
+
+.arrow:nth-child(even) {
+  bottom: 50%;
+  margin-bottom: -15px;
+} */
+
+/* .sub-block {
+  border: 3px solid #E56000;
+  padding: 20px 35px;
+}
+
+.sub-block {
+  margin-left: 54px;
+}
+
+.sub-block:first-child {
+  margin-left: 100px;
+} */
+
+.sitemap-logo {
+  width: 100%;
+}
+
+/* section 7 user-flow */
+
+.user-flow_sheme {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.user-flow_logo {
+  width: 100%;
+  height: auto;
+}
